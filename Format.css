@@ -1,0 +1,130 @@
+header {
+	margin: 0;
+	display: block;
+	
+}
+
+.header{
+	line-height: 0.8em;
+	text-align: center;
+	border: black solid;
+	position: sticky;
+	background-color: #F5F5F5;
+	min-height: 70px;
+	margin: 1px;
+}
+#showcase {
+	min-height: 320px;
+	background: url(Afb/Showcase.jpg) no-repeat;
+	background-size: 100%;
+	background: 0 - 400px;
+
+}
+
+#showcase h1{
+	margin-top: 50px;
+	line-height: 60px;
+	font-size: 55px;
+	margin-bottom: 10px;
+	color: #333;
+}
+#showcase h3{
+	font-size: 18px;
+	color: #333;
+	width: 75%;
+	position: left;
+
+}
+
+body{
+	font: 15px/1.5 Arial, Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+	background-color:#EEEE;
+	
+	
+}
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+
+}
+.clr {
+	clear: both;
+}
+
+/* nav bar begin */
+
+ul {
+  list-style-type: none;
+  margin: 0px ;
+  padding: 13px;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+li a {
+  
+  color: snow;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+  z-index: 2;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+
+}
+
+/* nav bar eind */
+
